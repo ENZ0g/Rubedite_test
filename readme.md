@@ -1,7 +1,8 @@
 Тестовое задание:
 
 "Просто сферстайте 2 экрана" [Макет](https://www.figma.com/file/XoA7mepbyPRXRPfluBRMze/rcw-single_event_page?node-id=0%3A1)
-
+___
+ [Посмотреть что получилось](https://enz0g.github.io/Rubedite_test/)
 ___
 
 Шаблон фигмы - 1440х4186px. Разрешение экрана выбираю 1440х900.
