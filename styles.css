@@ -1,0 +1,242 @@
+@font-face {
+    font-family: "Open Sans";
+    src: url("fonts/Open_Sans/OpenSans-Regular.ttf") format("opentype");
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Open Sans";
+    src: url("fonts/Open_Sans/OpenSans-Bold.ttf") format("opentype");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "Molle";
+    src: url("fonts/Molle/Molle-Italic.ttf") format("opentype");
+    font-weight: normal;
+}
+
+h1 {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 30px;
+    margin-bottom: 26px;
+}
+
+h2 {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 30px;
+    margin-bottom: 15px;
+}
+
+nav {
+    margin-top: 64px;
+    margin-bottom: 21px;
+}
+
+.menu-logo {
+    margin-right: 48px;
+}
+
+.menu li:not(:first-child) {
+    padding-top: 16px;
+}
+
+.menu-account-btn {
+    background-color: #1D1D1B;
+    display: block;
+    width: 14vw;
+    max-width: 249px;
+    height: 39px;
+    margin-top: -7px;
+    padding: 7px;
+    color: white;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0;
+}
+
+a {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #1D1D1B;
+}
+
+a:hover {
+    color: #cf5d5d;
+    text-decoration: none;
+}
+
+.ticket {
+    display: flex;
+    justify-content: space-between;
+    max-width: 658px;
+    height: 356px;
+    color: white;
+    margin: -255px auto 20px auto;
+}
+
+.ticket-left {
+    width: 453px;
+    background-color: #1D1D1B;
+    padding: 36px 147px 20px 44px;
+}
+
+.vertical_dotted_line {
+    border-right: 5px dashed #1D1D1B;
+}
+
+.ticket h1 {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 30px;
+}
+
+.ticket p {
+    color: white;
+}
+
+.ticket-left-location {
+    background-image: url("images/location_icon.svg");
+    background-position: left center;
+    background-repeat: no-repeat;
+    padding-left: 32px;
+}
+
+.ticket-left-time {
+    background-image: url("images/clock_icon.svg");
+    background-position: left center;
+    background-repeat: no-repeat;
+    padding-left: 32px;
+    margin-bottom: 59px;;
+}
+
+.ticket-social-media-logos {
+    display: flex;
+    justify-content: space-between;
+    width: 211px;
+}
+
+.ticket-right {
+    position:relative;
+    width: 200px;
+    background-color: #1D1D1B;
+    padding: 32px 30px 1px 38px;
+}
+
+.ticket-right::after {
+    content: "";
+    position: absolute;
+    background-image: url("images/right_ticket_bracket.svg");
+    width: 91px;
+    height: 78px;
+    top: 192px;
+    left: 106px;
+
+}
+
+.ticket-right-calendar-btn {
+    background-color: #C6252D;
+    padding: 10px;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    height: 33px;
+    width: 149px;
+    padding-top: 7px;
+    color: #FFFFFF;
+    position: absolute;
+    bottom: 33px;
+    left: 13%;
+}
+
+p {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: justify;
+    color: #1D1D1B;
+}
+
+.main-foto-brake-line {
+    max-width: 1440px;
+    height: 2px;
+    margin: -20px auto 102px auto;
+    background-color: #C93E8A;
+}
+
+.main-foto img {
+    width: 100%;
+    height: 100%;
+}
+
+b {
+    font-weight: bold;
+}
+
+.main-text-highlight {
+    position: relative;
+    margin-top: 87px;
+    margin-bottom: 50px;
+}
+
+.main-text-highlight p {
+    max-width: 1160px;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 121.9%;
+    padding: 0 9px 0 9px;
+}
+
+.main-text-highlight ::before {
+    content: '"';
+    font-family: Molle;
+    font-style: normal;
+    font-size: 96px;
+    position: absolute;
+    top: -45px;
+    left: 35vw;
+}
+
+.main-text-highlight ::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 22px;
+    left: -8px;
+    background-color: #EFC622;
+    z-index: -1;
+    width: 52vw;
+    max-width: 728px;
+    height: 25px;
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1180px;
+      }
+}
